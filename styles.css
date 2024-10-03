@@ -8,10 +8,12 @@ body{
     background-color: #ffffff;
     height: 1000px;
 }
-
 .album{
     border: 5px dashed rgb(63, 63, 76);
     width: 100%;
     height: 300px;
-    
+}
+
+.album p{
+    line-height: 2.0;
 }
