@@ -17,3 +17,20 @@ body{
 .album p{
     line-height: 2.0;
 }
+/* Se investiga agregar columnas para desplegar canciones y albumes en dos columnas separadas por temas de espacio*/
+.columns {
+    display: flex;           /* Flexbox para poner los elementos uno al lado del otro */
+    justify-content: space-between; /* Añade espacio entre las columnas */
+}
+
+.columns div {
+    width: 60%;              /* Ajusta el ancho de las columnas */
+}
+
+.columns h3 {
+    margin-bottom: 10px;     /* Espaciado entre el título y el contenido */
+}
+
+.columns p {
+    line-height: 1.5;        /* Espaciado entre las líneas del texto */
+}
